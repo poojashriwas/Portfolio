@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+    scroll-behavior: smooth;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+}
+
+.card{
+    transition: trasfrom 0.3s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.navbar-brand{
+    font-weight: bold;
+}
+
+/*header{
+    background: linear-gradient(rgba(0,0,0,0,6),rgba(0,0,0,0,6));
+}*/
+
+section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
